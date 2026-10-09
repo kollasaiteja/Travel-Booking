@@ -168,6 +168,18 @@ function submitBooking() {
         JSON.stringify(bookings)
     );
 
+    // Show a small confirmation popup for the selected booking type.
+if (selectedBookingType === "Flight") {
+    alert("✈️ Flight booked!");
+} else if (
+    selectedBookingType === "Car" ||
+    selectedBookingType === "Cab"
+) {
+    alert("🚕 Cab booked!");
+} else if (selectedBookingType === "Hotel") {
+    alert("🏨 Hotel booked!");
+}
+
 
     const result =
         document.getElementById(
