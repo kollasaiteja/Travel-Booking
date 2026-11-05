@@ -167,7 +167,6 @@ function submitBooking() {
         "travelEaseBookings",
         JSON.stringify(bookings)
     );
-
     // Show a small confirmation popup for the selected booking type.
 if (selectedBookingType === "Flight") {
     alert("✈️ Flight booked!");

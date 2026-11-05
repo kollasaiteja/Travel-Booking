@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f7fb;
+    color: #222;
+}
+
+.navbar {
+    background: #123456;
+    color: white;
+    padding: 20px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.nav-links button {
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.nav-links button:hover {
+    color: #ffd166;
+}
+
+.page {
+    min-height: 70vh;
+    padding: 60px 8%;
+    text-align: center;
+}
+
+.page h1 {
+    margin-bottom: 20px;
+    color: #123456;
+}
+
+.page p {
+    margin: 15px 0;
+    line-height: 1.6;
+}
+
+.service-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-top: 35px;
+}
+
+.service-card {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    width: 250px;
+    box-shadow: 0 3px 12px #00000015;
+}
+
+.service-card h2 {
+    margin-bottom: 15px;
+    color: #123456;
+}
+
+.main-btn {
+    background: #123456;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.page input {
+    display: block;
+    padding: 12px;
+    margin: 15px auto;
+    width: 280px;
+    max-width: 100%;
+}
+
+.footer {
+    background: #123456;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+.booking-form {
+    background: white;
+    padding: 30px;
+    max-width: 450px;
+    margin: 35px auto;
+    border-radius: 12px;
+    box-shadow: 0 3px 15px #00000020;
+}
+
+.booking-form h2 {
+    color: #123456;
+    margin-bottom: 20px;
+}
+
+.booking-form input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.cancel-btn {
+    background: #777;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 6px;
+    margin: 10px;
+    cursor: pointer;
+}
