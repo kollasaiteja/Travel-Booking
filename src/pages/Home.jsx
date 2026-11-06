@@ -1,4 +1,5 @@
-function Home() {
+
+function Home({ setPage }) {
     return (
         <div className="page">
             <h1>Welcome to TravelEase</h1>
@@ -10,7 +11,10 @@ function Home() {
                 and explore destinations easily with TravelEase.
             </p>
 
-            <button className="main-btn">
+            <button
+                className="main-btn"
+                onClick={() => setPage("services")}
+            >
                 Explore Now
             </button>
         </div>

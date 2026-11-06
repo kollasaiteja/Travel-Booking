@@ -130,4 +130,28 @@ body {
     border-radius: 6px;
     margin: 10px;
     cursor: pointer;
-}
+}.brand { cursor: pointer; }
+.notice { background: #e7f5ec; color: #14532d; padding: 10px 5%; display: flex; justify-content: space-between; }
+.notice button, .text-btn { border: 0; background: transparent; cursor: pointer; color: #123456; font-weight: 700; }
+.panel { background: #fff; padding: 24px; border-radius: 12px; box-shadow: 0 3px 12px #00000012; max-width: 900px; margin: 22px auto; }
+.auth-panel { max-width: 440px; }
+.auth-panel input, .itinerary-form input { width: 100%; max-width: 100%; display: block; padding: 12px; margin: 12px 0; border: 1px solid #cbd5e1; border-radius: 6px; font: inherit; }
+.auth-panel .main-btn, .itinerary-form .main-btn { width: 100%; }
+.auth-panel p { margin-top: 18px; }
+.itinerary-form { max-width: 500px; }
+.itinerary-form label { display: block; text-align: left; color: #475569; }
+.itinerary-results { max-width: 850px; margin: 30px auto; }
+.itinerary-day { text-align: left; }
+.itinerary-day h3 { color: #123456; margin-bottom: 12px; }
+.hint { color: #64748b; font-size: 14px; }
+.error { color: #b91c1c; }
+.dashboard-stats { display: flex; justify-content: center; gap: 18px; flex-wrap: wrap; }
+.dashboard-stats .panel { min-width: 180px; margin: 10px; }
+.dashboard-stats h2 { color: #123456; font-size: 32px; }
+.dashboard-panel { text-align: left; }
+.table-wrap { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; margin-top: 15px; }
+th, td { text-align: left; padding: 12px; border-bottom: 1px solid #e2e8f0; white-space: nowrap; }
+th { background: #eef3f8; color: #123456; }
+.small-danger { background: #b91c1c; color: #fff; border: 0; padding: 7px 10px; border-radius: 5px; cursor: pointer; }
+@media (max-width: 650px) { .navbar { align-items: flex-start; } .nav-links { gap: 8px; } .nav-links button { font-size: 14px; } .page { padding: 35px 5%; } .panel { padding: 18px; } }

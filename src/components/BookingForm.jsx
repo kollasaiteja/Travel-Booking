@@ -1,7 +1,7 @@
 
 import { useState } from "react";
 
-function BookingForm({ service, onClose }) {
+function BookingForm({ service, currentUser, onClose }) {
     const [from, setFrom] = useState("");
     const [destination, setDestination] = useState("");
     const [date, setDate] = useState("");
@@ -14,6 +14,7 @@ function BookingForm({ service, onClose }) {
         const booking = {
             id: "BOOK-" + Date.now(),
             service,
+            userEmail: currentUser?.email || "guest",
             from,
             destination,
             date,
